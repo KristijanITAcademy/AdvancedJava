@@ -1,0 +1,13 @@
+Nesto od sadrzaja postoji u ovom fajlu
+Mi smo danas dosta toga naucili
+Imamo checked vs unchecked izuzetke
+Imamo one koji nam ne dopustaj kontroliranjedok ne kazemo kako cemo izaci na kraj s njim, odnosno
+takvi izuzetci moraju imati blok koda koji se izvrsava i regauje na njih.
+Drugi izuzetci nam dopustaju kompjaliranje ali nam pada program u toku izvrsavanja ili u RuntimeException
+
+Svi izuzetci su checked osim onih koji nasljeduju RuntimeException i onih koji nasljeduju Error
+
+Treci su Error - >
+    - savrsen program kreiramo bez RuntimeException
+    - korisnik uvjek unese ispravan put do fajla
+    - racunar mu ostane bez memorije JVM is out of memory

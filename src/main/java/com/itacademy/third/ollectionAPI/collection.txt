@@ -1,0 +1,18 @@
+Hijerarhija CollectionAPI
+
+Na vrhu samom je Iterable - znaci kroz svaku kolekciju moras iterirati, proci
+- svakoj kolekciji kaze ti moras definirat svoj iterator
+ Kljucna razlika izmedu List i Set
+ Osobine svake List:
+        -> pamti redoslijed
+        -> primiti duplikate
+        -> indeksiran pristup
+
+  Osobine svake Set :
+    -> ne  pamti redoslijed
+    -> ne prima duplikate
+    -> nema indeksiran pristup
+    ENHANCED FOR LOOP - > moguce je koristit ovu petlju, ovaj loop zato
+     sto sve kolekcije implementiraju iterable
+
+TreeSet -> abecedno
