@@ -1,0 +1,12 @@
+Greske:
+    tipovi izuzetaka:
+    -> RuntimeEcxeption - greske koje nastaju dok se program izvrsava
+    -> rezultat nase programerske nepaznje
+   Throwable -  Error
+             -   Exception - IOException
+                      UNCHECKED    - RuntimeException - NullPointerException, IndexOutOfBounds -> ArrayIndexOfBoundException
+                      CHECKED  -
+                        FileNotFoundException
+   Po sablonu klasa koje nasljeduju RuntimeException ja ne kreiram objekte.
+
+   Po sablonu klasa koje nasljeduju Exception ja mogu dizajnirati vlastiti tip greske
