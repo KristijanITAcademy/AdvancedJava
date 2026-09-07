@@ -8,6 +8,8 @@ package com.itacademy.four.io.reader;
  * Closable klase  ubaci u try with resource
  *
  * samo mi je interfejs javan
+ *
+ * publiv abstract -> podrazumijeva public abstract String read (String path) throws ReaderException
  */
 public interface Reader {
     String read(String path) throws ReaderException;

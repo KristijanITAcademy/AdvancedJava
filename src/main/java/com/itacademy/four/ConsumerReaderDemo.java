@@ -21,7 +21,7 @@ public class ConsumerReaderDemo {
 
         Reader reader =  ReaderFactory.createReader(ReaderType.LINE);
         try {
-            String fileContent = reader.read("output.txt");
+            String fileContent = reader.read("data.txt");
             System.err.println(fileContent);
         }catch (ReaderException e){
             System.err.println(e.getMessage());
