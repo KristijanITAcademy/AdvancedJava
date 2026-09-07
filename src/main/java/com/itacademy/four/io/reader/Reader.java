@@ -1,4 +1,4 @@
-package com.itacademy.four.io;
+package com.itacademy.four.io.reader;
 
 /**
  * ako se desi Exception, necu gledat sve klase gledat cu samo one kojeimplements Reader interface

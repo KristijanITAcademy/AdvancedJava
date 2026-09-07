@@ -1,9 +1,9 @@
 package com.itacademy.four;
 
-import com.itacademy.four.io.Reader;
-import com.itacademy.four.io.ReaderException;
-import com.itacademy.four.io.ReaderFactory;
-import com.itacademy.four.io.ReaderType;
+import com.itacademy.four.io.reader.Reader;
+import com.itacademy.four.io.reader.ReaderException;
+import com.itacademy.four.io.reader.ReaderFactory;
+import com.itacademy.four.io.reader.ReaderType;
 
 /**
  * Ideja je da ovdje ne pozivamo konstruktor i ne konstruiramo objekte
@@ -16,7 +16,7 @@ import com.itacademy.four.io.ReaderType;
  *
  *  samo mi je interfejs javan, a sve njegove implementacije su paketno privatne vidljivosti
  */
-public class ConsumerDemo {
+public class ConsumerReaderDemo {
     public static void main(String[] args) {
 
         Reader reader =  ReaderFactory.createReader(ReaderType.LINE);

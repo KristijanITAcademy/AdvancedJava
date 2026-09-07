@@ -1,4 +1,4 @@
-package com.itacademy.four.io;
+package com.itacademy.four.io.reader;
 
 /**
  * sa enumom cu ograniciti da se nemoze desiti greska LINE tj LINEAAS krivi unos

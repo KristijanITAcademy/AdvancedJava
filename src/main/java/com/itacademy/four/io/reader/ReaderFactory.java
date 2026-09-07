@@ -1,4 +1,4 @@
-package com.itacademy.four.io;
+package com.itacademy.four.io.reader;
 
 /**
  * ReaderFactory --> razdvaja kreiranje objekata od njihovog koristenja

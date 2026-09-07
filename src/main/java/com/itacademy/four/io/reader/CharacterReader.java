@@ -1,4 +1,4 @@
-package com.itacademy.four.io;
+package com.itacademy.four.io.reader;
 
 import java.io.FileReader;
 import java.io.IOException;
