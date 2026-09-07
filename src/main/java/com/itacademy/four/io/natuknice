@@ -1,0 +1,9 @@
+Open for extension Close for Moification
+Depend upon abstraction not upon concrete implementation
+
+Kreiramo klase -> sablon za kreiranje mnostva objekata
+
+Razdvoji kreiranje objekata od njihovog koristenja
+
+Reader -> CharReader ...
+ReaderFactory -> za pozuiv konstruktor..
