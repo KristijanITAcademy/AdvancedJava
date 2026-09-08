@@ -1,0 +1,13 @@
+Observe Design Patter
+
+Subject(onaj koji se obsere ili posmatra) Observable -> Observer
+Newspaper(Observer ili Subject) -> subscribe -> Subscriber(Observer)
+
+event -> dogadaj koji se publishuje
+    Januar 2025  notifyAll
+
+   ActionListener -> interface
+   - nasljeduju ga,  relacija nasljedivanja
+
+Subject generira ActionEEvent -> event je kanal komunikacije izmedu onoga ko generira i
+onoga ko konzumira event
